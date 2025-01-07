@@ -1,0 +1,79 @@
+7/01/2024:
+--Data types:
+1)Dynamic type language
+--Two types:
+1)Primitive data type
+2)Non-primitive data type: Objects, Arrays
+
+To Check the data type---typeOf
+
+1)Primitive data type: predefined ;we can store single values
+--i)Numbers: integers, floats  
+--ii)String: Stream of characters enclosed in quotes
+------single , double, blacklist quotes;
+--iii)Boolean: true or false
+--iv)Null: empty value or no value
+--v)undefined: --declared variable with no value
+
+
+i)Numbers:
+--Ex: 1, -1,-4.4, 5.6
+
+ii)String:Stream of characters enclosed in quotes
+------single , double, backtick quotes;
+------single and double works same
+
+--Backtick introduced in Es6 version
+--it provides extra functionality; we can insert the variables into them 
+--EX: `hi+ ${a+b}`
+
+String Concatnation:
+
+
+Conditional statement: block execute only once
+loops: Block execute multiple times
+
+
+  Implementation of todays code :
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let x=null;
+        document.write(x , '<br>')
+        document.write(typeof(x))
+
+
+        /*let a= 'sai'
+        let b='kumar'
+        let student=`ReactJs student = ${a+" "+b}`
+        document.write(student)*/
+       
+        /*let a='hari'
+        let b='krishna'
+        let age=30
+        let greeting=`i am ${a+" "+b} , my age is ${age} years old`
+        console.log(greeting)
+        document.write(greeting)*/
+       
+        /*let a=3.5
+        let b=3.5
+        console.log("hi "+a)
+        console.log(`hi + ${a+b}`)
+        document.write(`hi +${a+b}`)*/
+
+        /*let b=3.5
+        let a='-3.5'
+        console.log(typeof(b))
+        console.log(typeof(a))
+        document.write(typeof(a),'<br>')
+        document.write(typeof(b))*/
+    </script>
+</body>
+</html>
