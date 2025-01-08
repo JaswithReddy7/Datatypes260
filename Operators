@@ -1,0 +1,99 @@
+08/01/2025:
+
+Java Operators:
+--1)Arithmetic:
+-Addition: +
+-Subtraction: -
+-Multiplication: *
+-Division:  / (Quotient)
+-Modulus Operator: %(Remainder )
+-Exponential(raised to power): **
+++, --,
+
+Assignment Operator:
+var student = "Swetha"---str
+  =   --assignment operator
+  ==  --equals to
+
+Logical Operators:
+--And Operator:    &&
+	T and T = T
+--Or Operator:     ||
+	T or F = F
+--Not Operator:    !
+	not T = F
+
+Relational (Comparison) values:
+	<,>,>=,<=,==,===,!=,!==
+
+Conditional Operator: Ternary Operator(?)
+	First evaluates an expression for a true or false;
+	Syntax:
+	  Condition ?e1:e2
+
+--Windows:
+-alert() : sends alert message to the window browser.
+-prompt() : to take user input through the browser
+-confirm() : 
+
+
+Implentation: 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<S>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        let aa=parseInt(prompt())
+        let bb=parseInt(prompt())
+        console.log(typeof(aa))
+        document.write(typeof(aa),"<br>")
+        document.write(aa+bb,'<br>')
+        console.log(aa+bb)
+
+        /*alert('hi')
+        console.log(alert)
+        document.write(alert)*/
+
+        /*name=prompt("enter your name")
+        alert(name)*/
+
+        /*let t=40
+        let r=(t>40)?"Ac-off":'Ac-on'
+        document.write(r)*/
+
+        /*let a=105
+        let b='105'
+        document.write(a==b,'<br>')
+        document.write(a===b,'<br>')
+        document.write(a!=b,'<br>')
+        document.write(a!==b,'<br>')
+
+        document.write(a>b && b>11,"<br>")
+        document.write(a>b || b>11,'<br>')
+        document.write(!(a<b) && (a>11),'<br>')
+        document.write(!(false),'<br>')
+        document.write(!(a>b),'<br>')
+        b-=30
+        document.write(b,"<br>")   
+
+        a+=30
+        document.write(a,"<br>")
+
+
+            document.write(b,'<br>')
+            document.write(a,'<br>')
+
+        document.write(a%b, '<br>') //remainder part
+        document.write(a/b, '<br>') //quotient
+        document.write(a*b,'<br>')
+        document.write(a**b,'<br')
+        */
+    </script>
+</body>
+</html>
